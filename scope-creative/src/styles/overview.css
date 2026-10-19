@@ -1,0 +1,75 @@
+.studio-pulse {display:flex; justify-content:space-between; align-items:center; font-size:12px; color:var(--secondary); padding:3px 0 20px; border-bottom:1px solid var(--line); margin:0 0 28px}
+.studio-pulse>div {display:flex; align-items:center; gap:9px}
+.studio-pulse strong {font-weight:600; color:var(--ink)}
+.studio-pulse>div:last-child {gap:7px; font-size:11px}
+.studio-pulse>div:last-child>span {color:var(--secondary); margin:0 5px}
+.studio-pulse>div:last-child>svg {margin-left:7px; color:var(--secondary)}
+.pulse-separator {width:1px; height:12px; background:#f4f5f1; margin:0 3px}
+.overview-columns {display:grid; grid-template-columns:minmax(0,1fr) 300px; gap:30px}
+.main-column,.right-column {min-width:0}
+.attention-list {background:#fff; border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden}
+.attention-row {display:flex; align-items:center; gap:14px; padding:21px 20px; border-bottom:1px solid var(--line)}
+.attention-row:last-child {border-bottom:0}
+.attention-icon {width:39px; height:39px; border-radius:10px; display:inline-grid; place-items:center; flex-shrink:0}
+.attention-row h3 {font-size:13px; font-weight:550; margin-bottom:5px}
+.attention-row p {font-size:11px; color:var(--secondary); line-height:1.6}
+.attention-row .text-action {margin-left:auto; font-size:11px}
+.projects-section {margin-top:30px}
+.project-preview-grid {display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:15px}
+.horizon {margin-top:30px}
+.deadline-row {display:flex; align-items:center; gap:13px; padding:15px 0; border-top:1px solid var(--line); width:100%; text-align:left}
+.deadline-row:hover {background:#f4f5f1; box-shadow:8px 0 #f3f5ee,-8px 0 #f3f5ee}
+.date-block {width:30px; display:flex; flex-direction:column; text-align:center; line-height:1; gap:4px; color:var(--secondary); font-size:10px; flex-shrink:0}
+.date-block strong {font-size:19px; font-weight:500; color:var(--ink)}
+.tiny-project {width:30px; height:32px; border-radius:5px; flex-shrink:0; position:relative; overflow:hidden}
+.tiny-project:after {content:''; width:27px; height:27px; border-radius:50%; border:6px solid #ffffff40; position:absolute; right:-10px; top:7px}
+.tiny-project.olio {background:#d2dc87}.tiny-project.form {background:#c6b9a5}.tiny-project.monday {background:#c5b4e1}
+.deadline-name {flex:1; min-width:0}
+.deadline-name strong {display:block; font-size:12px; font-weight:550}
+.deadline-name small {display:block; font-size:10px; color:var(--secondary); margin-top:4px}
+.deadline-row>.avatar-stack {margin:0 5px}
+.deadline-row>svg {color:var(--secondary)}
+.workload-panel {background:#f4f5f1; border:1px solid var(--line); border-radius:var(--radius); padding:22px 22px 0; overflow:hidden}
+.workload-panel .section-title {margin-bottom:7px}
+.workload-panel h2 {font-size:15px; letter-spacing:-.35px}
+.workload-panel>p {font-size:12px; color:var(--secondary); display:flex; align-items:center; justify-content:space-between}
+.workload-panel>p>span {font-size:10px; letter-spacing:1px}
+.workload-total {display:flex; align-items:center; justify-content:space-between; gap:9px; margin:24px 0 20px}
+.workload-total>strong {font-size:34px; letter-spacing:-1.5px; line-height:1; font-weight:500; color:var(--ink)}
+.workload-total>strong>span {font-size:13px; color:var(--secondary); letter-spacing:-.1px; font-weight:400; margin-left:2px}
+.capacity-label {font-size:10px; color:var(--teal); padding:5px 7px; border:1px solid var(--line); border-radius:5px; background:#f4f5f1; white-space:nowrap}
+.weekly-chart {height:142px; display:flex; gap:16px; padding:0 4px}
+.weekly-chart>div {flex:1; display:flex; flex-direction:column; align-items:center}
+.bar-track {width:100%; height:117px; background:#f4f5f1; position:relative; border-radius:5px; overflow:hidden}
+.chart-booked {position:absolute; width:100%; bottom:0; background:#f4f5f1; border-radius:5px 5px 0 0}
+.chart-booked>div {position:absolute; width:100%; bottom:0; background:#f4f5f1}
+.bar-track.current .chart-booked {background:var(--teal-bright)}
+.bar-track.current .chart-booked>div {background:#f4f5f1}
+.weekly-chart>div>span {font-size:11px; color:var(--secondary); margin-top:8px}
+.chart-key {display:flex; gap:17px; font-size:10px; color:var(--secondary); margin:15px 0 21px}
+.chart-key>span {display:flex; gap:5px; align-items:center}
+.chart-key i {height:6px; width:6px; border-radius:2px; background:#f4f5f1}
+.chart-key>span:last-child i {background:#f4f5f1}
+.thin-rule {height:1px; width:100%; background:#f4f5f1; margin-bottom:18px}
+.small-title {margin-bottom:17px; color:var(--secondary)}
+.small-title h3 {font-size:12px; font-weight:500}
+.available-member {display:flex; gap:8px; align-items:center; margin:14px 0}
+.available-member>span:nth-child(2) {font-size:12px; color:var(--ink)}
+.available-member small {display:block; font-size:10px; color:var(--secondary); margin-top:2px}
+.available-member>strong {margin-left:auto; color:var(--secondary); font-size:10px; font-weight:550; background:#f4f5f1; padding:3px 6px; border-radius:4px; white-space:nowrap}
+.panel-footer {width:100%; display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--line); padding:17px 0; margin-top:20px; font-size:11px; font-weight:500; color:var(--teal)}
+.panel-footer:hover {color:var(--teal)}
+.studio-feed {margin-top:29px}
+.studio-feed h2 {font-size:15px}
+.feed-item {display:flex; align-items:start; gap:11px; padding-bottom:20px; position:relative}
+.feed-item:after {content:''; width:1px; background:#f4f5f1; position:absolute; left:13px; top:29px; bottom:3px}
+.feed-item:nth-last-child(2):after {display:none}
+.feed-marker {display:inline-grid; place-items:center; width:27px; height:27px; border-radius:50%; flex-shrink:0}
+.feed-item p {font-size:12px; color:var(--secondary); line-height:1.7; margin-top:1px}
+.feed-item strong {font-weight:550; color:var(--ink)}
+.feed-item small {font-size:10px; color:var(--secondary); display:block; margin-top:5px}
+.studio-feed>.text-action {font-size:11px}
+.studio-quote {background:#f4f5f1; color:var(--secondary); position:relative; border-radius:11px; padding:26px 23px; margin-top:27px; min-height:155px; overflow:hidden}
+.studio-quote>span {font-family:Georgia,serif; font-size:109px; color:var(--secondary); line-height:1; position:absolute; right:-9px; top:22px; transform:rotate(9deg)}
+.studio-quote p {font-family:'Instrument Serif',Georgia,serif; font-size:34px; line-height:1; position:relative; letter-spacing:-.5px}
+.studio-quote>div {font-size:7px; font-weight:500; letter-spacing:2px; color:var(--secondary); margin-top:22px}

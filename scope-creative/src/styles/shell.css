@@ -1,0 +1,62 @@
+.app-shell {display:flex; min-height:100vh}
+.sidebar {position:fixed; inset:0 auto 0 0; z-index:30; width:216px; background:#f4f4ef; border-right:1px solid var(--line); padding:30px 16px 0; display:flex; flex-direction:column}
+.brand {display:flex; align-items:center; gap:11px; padding:0 13px; margin-bottom:33px; width:max-content}
+.brand-symbol {display:grid; place-items:center; height:36px; width:36px; color:var(--teal-bright)}
+.brand-symbol svg {width:35px; height:35px}
+.wordmark {font-size:34px; font-weight:650; letter-spacing:-2.2px; line-height:.8; display:inline-flex; flex-direction:column; color:var(--ink)}
+.wordmark>span {font-size:8px; letter-spacing:3.7px; font-weight:550; line-height:1; margin-top:10px; padding-left:3px}
+.workspace {display:flex; align-items:center; gap:9px; text-align:left; border:1px solid var(--line); background:#fff; border-radius:8px; padding:10px; margin-bottom:29px; font-size:12px; font-weight:550; box-shadow:0 2px 3px #26282b03}
+.workspace>svg {margin-left:auto; color:var(--secondary); width:12px}
+.workspace small {display:block; font-size:11px; color:var(--muted); font-weight:400; margin-top:2px}
+.workspace-mark {display:grid; place-items:center; width:29px; height:29px; background:#f4f5f1; color:var(--secondary); border:1px solid var(--line); border-radius:6px; font-size:16px; font-family:'Instrument Serif',Georgia,serif; flex-shrink:0}
+.nav-caption {font-size:10px; letter-spacing:1.6px; font-weight:550; color:var(--secondary); padding:0 13px; margin-bottom:12px}
+.sidebar nav {display:flex; flex-direction:column; gap:5px}
+.sidebar nav button {display:flex; align-items:center; gap:12px; text-align:left; width:100%; padding:11px 13px; font-size:13px; font-weight:450; color:var(--secondary); border-radius:7px; position:relative}
+.sidebar nav button:hover {background:#f4f5f1; color:var(--ink)}
+.sidebar nav button.active {background:#f4f5f1; color:var(--teal); font-weight:600}
+.sidebar nav button.active:before {content:''; position:absolute; left:-16px; height:20px; width:3px; border-radius:0 3px 3px 0; background:var(--teal-bright)}
+.nav-count {margin-left:auto; font-size:11px; line-height:1; padding:4px 6px; border-radius:4px; background:#f4f5f1; color:var(--secondary); min-width:18px; text-align:center}
+.settings-dot {margin-left:auto; width:5px; height:5px; border-radius:50%; background:#d5a381}
+.sidebar-bottom {margin-top:auto}
+.studio-note {margin:65px 14px 30px; position:relative; color:var(--secondary)}
+.mini-spark {font-size:33px; line-height:1; color:var(--secondary); display:block; margin-bottom:12px}
+.studio-note p {font-size:13px; line-height:1.55; letter-spacing:-.2px}
+.studio-note>span:last-child {display:block; margin-top:13px; font-size:7px; letter-spacing:1.4px; color:var(--secondary)}
+.help-link {width:100%; display:flex; align-items:center; gap:9px; color:var(--secondary); font-size:11px; padding:12px; margin-bottom:12px}
+.help-link>svg {margin-left:auto}
+.help-circle {width:15px; height:15px; border:1px solid var(--line); border-radius:50%; display:grid; place-items:center; font-size:11px}
+.profile {display:flex; gap:9px; align-items:center; text-align:left; width:calc(100% + 32px); margin-left:-16px; padding:17px 15px; border-top:1px solid var(--line); background:#f1f2ec}
+.profile>span:nth-child(2) {font-size:11px; font-weight:600; flex:1}
+.profile small {display:block; color:var(--secondary); font-size:9px; font-weight:400; margin-top:3px; letter-spacing:-.1px}
+.profile>svg {width:12px; color:var(--secondary)}
+.workspace-body {width:calc(100% - 216px); margin-left:216px; min-width:0}
+.topbar {height:69px; padding:0 36px; border-bottom:1px solid var(--line); display:flex; align-items:center; justify-content:space-between; background:#faf9f6eb}
+.crumb {display:flex; align-items:center; gap:13px; font-size:12px; color:#8a8d88}
+.crumb>svg {color:var(--secondary)}
+.crumb strong {font-weight:500; color:var(--ink)}
+.top-actions {display:flex; align-items:center; gap:17px}
+.top-divider {height:18px; width:1px; background:#f4f5f1}
+.top-avatar {padding:0}
+.notification-dot {height:5px; width:5px; border-radius:50%; background:#e08b71; position:absolute; top:6px; right:7px; border:1px solid var(--canvas)}
+.notice-wrap {position:relative}
+main {padding:36px 36px 0; max-width:1640px; margin:0 auto}
+.page-heading {display:flex; align-items:center; justify-content:space-between; gap:22px; margin-bottom:29px}
+h1 {font-family:'Instrument Serif',Georgia,serif; font-size:49px; font-weight:400; letter-spacing:-1.3px; line-height:1.12; color:var(--ink); margin:10px 0 10px}
+.page-heading p {font-size:13px; color:var(--secondary); line-height:1.65}
+.heading-star {display:inline-block; font-family:Georgia,serif; font-size:33px; color:var(--teal-bright); vertical-align:middle; line-height:1; margin-left:12px; transform:rotate(13deg)}
+.heading-actions {display:flex; gap:17px; align-items:center; padding-top:23px}
+.date-label {display:flex; align-items:center; gap:7px; color:var(--secondary); font-size:11px; white-space:nowrap}
+.section-title {display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:18px}
+.section-title h2 {display:flex; align-items:center; gap:9px}
+.section-toolbar {display:flex; justify-content:space-between; align-items:center; gap:15px; border-bottom:1px solid var(--line); margin-bottom:24px}
+.tabs {display:flex; gap:26px}
+.tabs>button {display:flex; align-items:center; gap:8px; color:var(--secondary); font-size:13px; padding:14px 0; border-bottom:2px solid transparent; white-space:nowrap}
+.tabs>button:hover {color:var(--teal)}
+.tabs>button.selected {border-color:var(--teal-bright); color:var(--teal); font-weight:550}
+.tabs>button>span {font-size:11px; background:#f4f5f1; color:var(--secondary); border-radius:4px; padding:1px 5px}
+.sync-label {display:inline-flex; align-items:center; gap:7px; font-size:11px; color:var(--secondary); white-space:nowrap}
+.app-footer {display:flex; align-items:center; justify-content:space-between; gap:20px; padding:20px 0; margin-top:30px; border-top:1px solid var(--line); font-size:10px; color:var(--secondary)}
+.app-footer>span:first-child {display:flex; align-items:center; gap:8px}
+.app-footer .live-dot {height:4px; width:4px; box-shadow:none; background:#f4f5f1}
+.footer-dot {padding:0 7px; color:var(--secondary)}
+.mobile-menu,.mobile-backdrop {display:none}

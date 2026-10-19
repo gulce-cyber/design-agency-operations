@@ -1,0 +1,22 @@
+{
+  "name": "scope-creative-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node scripts/test.mjs"
+  },
+  "dependencies": {
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "vite": "6.3.5",
+    "react-test-renderer": "19.1.0"
+  }
+}

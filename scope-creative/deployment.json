@@ -1,0 +1,16 @@
+{
+  "url": "https://scope-creative-os.vercel.app",
+  "target": "production",
+  "status": "READY",
+  "deploymentId": "dpl_2k8krDyqt5RH26Z3wxF8BqEJ9zvf",
+  "deploymentUrl": "https://scope-creative-3wpyoa7ci-gulcebesel2-6492s-projects.vercel.app",
+  "project": "scope-creative-os",
+  "projectId": "prj_3upHfLu8wZ8BD0bwvR438VPIxv8M",
+  "teamId": "team_EKt0gXXVJ7cZRUsnsA7xXhoi",
+  "framework": "Vite / React static build",
+  "verified": [
+    "Live HTML HTTP 200",
+    "Live JavaScript exactly matches tested build"
+  ],
+  "deployedAt": "2026-10-19T12:55:12.611Z"
+}
